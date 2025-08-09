@@ -1,0 +1,62 @@
+header {
+    text-align: center;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+body {
+  background-color: #dbd4d4cb; /* Light grey background for the entire page */
+  color: #333; /* Dark grey for general text */
+  font-family: Arial, sans-serif; /* Consistent font */
+  font-size: large;
+}
+
+#projects {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px; /* Adds 20px gap between grid items */
+        font-weight: bold;
+    }
+
+#projects p {
+    text-align: center;
+}
+
+#projects h2 {
+    text-align: center
+}
+
+#aboutMe h2 {
+   text-align: center;
+}
+
+#aboutMe p {
+    text-align: center;
+}
+
+#projects h3 {
+     transform: rotate(15deg);
+}
+
+img {
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+    /* Adjust grid for mobile */
+}
+
+#aboutMe p {
+    padding: 2em;
+}
+
+#contactMe {
+    text-align: center;
+    letter-spacing: 2px;
+}
